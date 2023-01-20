@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    height: 150vh;
+    background: linear-gradient(to left , #7fb5f3 ,#000b17  );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+
+}
+.YEAR{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+
+}
+.MD{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+
+}
+.MD div{
+    background-color: rgb(255, 255, 255);
+    height:200px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size:120px;
+    color: black;
+    border-radius:10px; 
+    box-shadow: inset;
+    letter-spacing: 3px;
+}
+.MD span{
+    font-size: 60px;
+    font-weight:bolder;
+    color: aliceblue;
+    
+}
+.YEAR div{
+    background-color: rgb(255, 255, 255);
+    height:200px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size:120px;
+    color: black;
+    border-radius:10px; 
+    box-shadow: inset;
+    letter-spacing: 3px;
+}
+.clock div{
+    background-color: rgb(170, 179, 214);
+    height:200px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size:120px;
+    color: black;
+    border-radius:10px; 
+    box-shadow: inset;
+    letter-spacing: 3px;
+}
+.clock span{
+    font-size: 60px;
+    font-weight:bolder;
+    color: aliceblue;
+    
+}
