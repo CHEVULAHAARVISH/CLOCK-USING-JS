@@ -31,6 +31,12 @@ const DTY = setInterval(function Time(){
     if (m>=0){
         m= m + 1;
     } 
+    if (m < 10) {
+        m = "0" + m;
+    }
+    if (d < 10) {
+        d = "0" + d;
+    }
     DATE.textContent = d;
     MONTH.textContent = m;
     YEAR.textContent = y;

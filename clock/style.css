@@ -12,6 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .clock{
     width: auto;
@@ -35,10 +36,11 @@ body {
     display: flex;
     align-items:center;
     justify-content:space-between;
+    margin-top: 20px;
 
 }
 .MD div{
-    background-color: rgb(255, 255, 255);
+    background: rgb(170, 179, 214);
     height:200px;
     width: 150px;
     display: flex;
@@ -55,19 +57,6 @@ body {
     font-weight:bolder;
     color: aliceblue;
     
-}
-.YEAR div{
-    background-color: rgb(255, 255, 255);
-    height:200px;
-    width: 280px;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    font-size:120px;
-    color: black;
-    border-radius:10px; 
-    box-shadow: inset;
-    letter-spacing: 3px;
 }
 .clock div{
     background-color: rgb(170, 179, 214);
@@ -87,4 +76,18 @@ body {
     font-weight:bolder;
     color: aliceblue;
     
+}
+
+#YEAR{
+    background: rgb(170, 179, 214);
+        height: 200px;
+        width: 280px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 120px;
+        color: black;
+        border-radius: 10px;
+        box-shadow: inset;
+        letter-spacing: 3px;
 }
